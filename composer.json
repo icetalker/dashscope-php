@@ -1,0 +1,23 @@
+{
+    "name": "icetalker/dashscope-php",
+    "description": "阿里云通义万相 php sdk",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Icetalker\\Dashscope\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin H",
+            "email": "termlong.com@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+    }
+}
